@@ -1,0 +1,17 @@
+.block.asset-gallery .asset-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 1em 0;
+}
+.block.asset-gallery .asset-gallery img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.block.asset-gallery .asset-gallery img:hover {
+  transform: scale(1.05);
+}
