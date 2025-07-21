@@ -301,6 +301,22 @@
             }
           }
         },
+
+{
+  "id": "asset-gallery",
+  "title": "Asset Gallery",
+  "fields": [
+    {
+      "name": "folder",
+      "label": "Assets Folder",
+      "type": "reference",
+      "assetType": "folder",
+      "required": true
+    }
+  ]
+},
+
+				
         {
           "...": "../blocks/*/_*.json#/definitions"
         }
