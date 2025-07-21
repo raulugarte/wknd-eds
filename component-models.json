@@ -1,21 +1,9 @@
 [
   
     
-    {
-    "id": "asset-gallery",
-    "fields": [
-      {
-        "component": "reference",
-        "name": "folder",
-        "label": "Assets Folder",
-        "valueType": "string",
-        "multi": false
-      }
 
-    ]
-  },
     
-    
+
     
     
     {
