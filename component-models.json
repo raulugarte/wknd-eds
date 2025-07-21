@@ -1,5 +1,24 @@
 [
-  {
+  
+    
+    {
+    "id": "asset-gallery",
+    "fields": [
+      {
+        "component": "reference",
+        "name": "folder",
+        "label": "Assets Folder",
+        "valueType": "string",
+        "multi": false
+      }
+      // You may add more fields (e.g., "gallery style") as needed!
+    ]
+  }
+    
+    
+    
+    
+    {
     "id": "page-metadata",
     "fields": [
       {
