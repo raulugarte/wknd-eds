@@ -131,23 +131,29 @@
 
 
 
-				{
-  "id": "asset-gallery",
-  "title": "Asset Gallery",
-  "plugins": {
-    "xwalk": {
-      "page": {
-        "resourceType": "core/franklin/components/block/v1/block",
-        "template": {
-          "name": "asset-gallery",
-          "model": "asset-gallery"
-        }
-      }
-    }
-  }
-},
+				
+{
+          "id": "asset-gallery",
+          "title": "asset Gallery",
+          "model": "asset-gallery",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "asset-gallery",
+                  "model": "asset-gallery"
+                }
+              }
+            }
+          }
+        },
 
 
+
+
+
+				
 
 				
         {
