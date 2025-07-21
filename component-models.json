@@ -10,7 +10,8 @@
         "name": "folder",
         "label": "Assets Folder",
         "valueType": "string",
-        "multi": false
+        "multi": false,
+        "assetType": "folder"
       }
     ]
   },
