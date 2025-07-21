@@ -1897,18 +1897,4 @@
 
 
   
-
-    {
-    "id": "asset-gallery",
-    "fields": [
-      {
-        "component": "reference",         
-        "valueType": "string",            
-        "name": "folder",                 
-        "label": "Assets Folder",         
-        "multi": false                    
-      }
-    ]
-  }
-  
 ]
