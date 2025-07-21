@@ -1,16 +1,16 @@
-s{
+{
   "mappings": [
-    "/content/wknd-universal/language-masters/en/:/",
-    "/content/wknd-universal/configuration:/.helix/config.json",
-    "/content/wknd-universal/metadata:/metadata.json",
-    "/content/wknd-universal/redirects:/redirects.json",
-    "/content/wknd-universal/language-masters/placeholders:/language-masters/placeholders.json",
-    "/content/wknd-universal/language-masters/en/placeholders:/language-masters/en/placeholders.json",
-    "/content/wknd-universal/language-masters/en/placeholders:/en/placeholders.json",
-    "/content/wknd-universal/placeholders:/placeholders.json",
-    "/content/wknd-universal.resource/language-masters/en/query-index.json:/en/query-index.json"
+    "/content/wknd-eds/language-masters/en/:/",
+    "/content/wknd-eds/configuration:/.helix/config.json",
+    "/content/wknd-eds/metadata:/metadata.json",
+    "/content/wknd-eds/redirects:/redirects.json",
+    "/content/wknd-eds/language-masters/placeholders:/language-masters/placeholders.json",
+    "/content/wknd-eds/language-masters/en/placeholders:/language-masters/en/placeholders.json",
+    "/content/wknd-eds/language-masters/en/placeholders:/en/placeholders.json",
+    "/content/wknd-eds/placeholders:/placeholders.json",
+    "/content/wknd-eds.resource/language-masters/en/query-index.json:/en/query-index.json"
   ],
   "includes": [
-    "/content/wknd-universal/"
+    "/content/wknd-eds/"
   ]
 }
