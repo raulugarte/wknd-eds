@@ -942,5 +942,21 @@
             ]
           }
         ]
+      },
+
+    {
+    "id": "asset-gallery",
+    "fields": [
+      {
+        "component": "reference",         // Field type (shows up as an asset picker)
+        "valueType": "string",            // Data type to store
+        "name": "folder",                 // Internal field name used in your block JS
+        "label": "Assets Folder",         // UI label in Universal Editor
+        "multi": false                    // Only allow picking one folder
       }
+    ]
+  }
+
+
+  
 ]
