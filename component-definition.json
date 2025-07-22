@@ -134,7 +134,7 @@
 				
 {
           "id": "asset-gallery",
-          "title": "asset Gallery",
+          "title": "Asset Gallery",
           "model": "asset-gallery",
           "plugins": {
             "xwalk": {
