@@ -104,7 +104,7 @@ export default async function decorate(block) {
                 <p data-aue-prop="cftitle" data-aue-label="Title" data-aue-type="text" class='cftitle'>${
                   cfReq?.title
                 }</p>
-                <p data-aue-prop="cfsubtitle" data-aue-label="SubTitle" data-aue-type="text" class='cfsubtitle'>${
+                <p data-aue-prop="subtitle" data-aue-label="SubTitle" data-aue-type="text" class='cfsubtitle'>${
                 cfReq?.subtitle
                 }</p>
                 
