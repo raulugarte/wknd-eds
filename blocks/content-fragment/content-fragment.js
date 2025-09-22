@@ -101,14 +101,14 @@ export default async function decorate(block) {
           <div class='banner-detail' style="background-image: linear-gradient(90deg,rgba(0,0,0,0.6), rgba(0,0,0,0.1) 80%) ,url(${
             imgUrl
           });" data-aue-prop="bannerimage" data-aue-label="Main Image" data-aue-type="media" >
-                <p data-aue-prop="cftitle" data-aue-label="Title" data-aue-type="text" class='cftitle'>${
+                <p data-aue-prop="title" data-aue-label="Title" data-aue-type="text" class='cftitle'>${
                   cfReq?.title
                 }</p>
                 <p data-aue-prop="subtitle" data-aue-label="SubTitle" data-aue-type="text" class='cfsubtitle'>${
                 cfReq?.subtitle
                 }</p>
                 
-                <p data-aue-prop="cfdescription" data-aue-label="Description" data-aue-type="richtext" class='cfdescription'>${
+                <p data-aue-prop="description" data-aue-label="Description" data-aue-type="richtext" class='cfdescription'>${
                   cfReq?.description?.plaintext
                 }</p>
                 <a href="${cfReq?.ctaUrl ? cfReq.ctaUrl : '#'}" data-aue-prop="ctaUrl" data-aue-label="Button Link/URL" data-aue-type="reference"  target="_blank" rel="noopener" data-aue-filter="page">
